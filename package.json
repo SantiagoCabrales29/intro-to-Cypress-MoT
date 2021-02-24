@@ -1,0 +1,23 @@
+{
+  "name": "intro-to-Cypress-MoT",
+  "version": "1.0.0",
+  "description": "Ministry of Testing's Introductory course for Cypress",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SantiagoCabrales29/intro-to-Cypress-MoT.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SantiagoCabrales29/intro-to-Cypress-MoT/issues"
+  },
+  "homepage": "https://github.com/SantiagoCabrales29/intro-to-Cypress-MoT#readme",
+  "devDependencies": {
+    "cypress": "^6.5.0"
+  }
+}
