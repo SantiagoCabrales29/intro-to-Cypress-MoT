@@ -28,3 +28,12 @@ Cypress.Commands.add('login', (username,password) => {
     cy.get('[data-testid=password]').type(password);
     cy.get('[data-testid=submit]').click();
 });
+
+Cypress.Commands.add('fillBooking', (name, email, phone, subject, message) => {
+        cy.get('#name').type(name);
+        cy.get('#email').type(email);
+        cy.get('#phone').type(phone);
+        cy.get('#subject').type(subject);
+        cy.get('#description').type(message);
+        cy.get('#submitContact').click();
+});

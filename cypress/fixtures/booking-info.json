@@ -1,0 +1,7 @@
+{
+  "name": "A booking example",
+  "email": "booking@mail.com",
+  "phone": "777777777777777",
+  "subject": "This is a test using cypress",
+  "message": "This is the message of my test. This will create a booking and submit it"
+}
